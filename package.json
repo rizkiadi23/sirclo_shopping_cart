@@ -1,0 +1,25 @@
+{
+  "name": "sirclo_shopping_cart",
+  "version": "1.0.0",
+  "description": "a simple shopping cart library",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc _mocha \"test/*.test.js\" --timeout=10000 --recursive --exit"
+  },
+  "author": "rizkiadi23",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "reporter": [
+      "html",
+      "text",
+      "lcov",
+      "text-summary"
+    ],
+    "report-dir": "./coverage"
+  }
+}
