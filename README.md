@@ -35,10 +35,10 @@ To setup this `lib` locally, you can follow these commands from your terminal:
 git clone https://github.com/rizkiadi23/sirclo_shopping_cart
 ```
 
-2. Install the dependencies by executing:
+2. Go into project directory and then install the dependencies by executing:
 
 ```shell
-npm install
+cd sirclo_shopping_cart && npm install
 ```
 
 3. Run the unit test to see the sample output as sample:
